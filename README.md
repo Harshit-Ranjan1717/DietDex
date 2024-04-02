@@ -9,29 +9,29 @@ Currently, two official plugins are available:
 
 
 # FOLDER STRIUCTURE
--APP
-    -HEADER
-        -NAVBAR
-        -HEAD SECTION
-            -TEXT (LEFT)
-            -IMAGE(RIGHT)
-        -DESCRIPTION
-    -BODY
-        -UPPER PART 
-            -Experience the power
-            -BUTTON
-        -LOWER PART
-            -MULTIPLE SECTIONS (6)
-                - IMG
-                -DESCRIPTION
-    -FOOTER
-        -DESC
-        -CARDS (3)
-            -IMG
-            -FEW TEXTS
-            -BUTTON
-        -Boost Your Productivity 
-        -ACTUAL FOOTER AND LINKS 
+* APP
+    * HEADER
+        * NAVBAR
+        * HEAD SECTION
+            * TEXT (LEFT)
+            * IMAGE(RIGHT)
+        * DESCRIPTION
+    * BODY
+        * UPPER PART 
+            * Experience the power
+            * BUTTON
+        * LOWER PART
+            * MULTIPLE SECTIONS (6)
+                * IMG
+                * DESCRIPTION
+    * FOOTER
+        * DESC
+        * CARDS (3)
+            * IMG
+            * FEW TEXTS
+            * BUTTON
+        * Boost Your Productivity 
+        * ACTUAL FOOTER AND LINKS 
 
 
 
