@@ -3,7 +3,7 @@ import React from 'react'
 export const Navbar = () => {
     return (
         <>
-            <div className='flex justify-between items-center h-[50px] bg-gray-700 text-white text-xl list-none'>
+            <div className='flex justify-between items-center h-[50px] bg-green-600 text-white text-xl list-none'>
                 <div className='ml-4'>
                     <h1>
                         DietDex
