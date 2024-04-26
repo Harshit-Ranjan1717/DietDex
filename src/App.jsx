@@ -3,16 +3,27 @@ import './App.css'
 import Header from './components/Header'
 import Body from './components/Body'
 import Footer from './components/Footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Login from './components/Login'
+import Register from './components/Register'
+import Contact from './components/Contact'
 
 
 function App() {
- 
+
 
   return (
     <>
-      <Header></Header>
-      <Body></Body>
-      <Footer></Footer>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Header />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='*' element={<h1>Error:404 Page not found</h1>} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }
