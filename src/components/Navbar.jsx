@@ -31,7 +31,7 @@ export const Navbar = () => {
                 <div className='flex gap-10 mr-6 cursor-pointer'>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/contact'>Contact Us</Link></li>
-                    <li><Link to='/'>Diet Program</Link></li>
+                    <li><a href='#diet'>Diet Program</a></li>
                     <li><Link to='/login'>Login</Link></li>
                     <li><Link to='/register'>Get Started</Link></li>
                 </div>
