@@ -22,7 +22,7 @@ export const Navbar = () => {
                 <Route path='*' element={<h1>Error:404 Page not found</h1>} />
             </Routes> */}
             {/* <RouterProvider router={route} /> */}
-            <div className='flex justify-between items-center h-[50px] bg-[#47c640] text-white text-xl list-none'>
+            <div className='flex justify-between items-center h-[50px] bg-[#0ACB8B] text-white text-xl list-none'>
                 <div className='ml-4'>
                     <h1>
                         DietDex

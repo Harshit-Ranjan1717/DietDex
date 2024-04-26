@@ -13,7 +13,7 @@ const Header = () => {
           <p className='text-6xl'>Empowering Wellness:</p>
           <p className='text-5xl pt-2'>Digital Dietitian App</p>
           <p className='text-2xl pt-8'>Elevate your well-being with DietDex, your personalized digital dietician. Tailored nutrition plans, expert guidance, and science-backed insights help you achieve your health goals effortlessly. Start your journey today</p>
-          <button className='border-2 px-4 py-2 mt-7 bg-[#47c640] text-white'>Get started</button>
+          <button className='border-2 px-4 py-2 mt-7 bg-[#0ACB8B] text-white'>Get started</button>
         </div>
         <div>
           <img className="mt-10" src="https://img.freepik.com/premium-vector/weight-loss-vector-illustration-woman-body-transformation-concept-with-diet-healthy-lifestyle_2175-23018.jpg?w=996" alt="" />
