@@ -17,7 +17,7 @@ const Content = (props) => {
                   <img
                     className="w-16"
                     src={
-                      "https://static.wixstatic.com/media/197d85_6a9b4ef9117d48f4b64b660680d35228~mv2.png"
+                      text.sub_img
                     }
                     alt=""
                   />
