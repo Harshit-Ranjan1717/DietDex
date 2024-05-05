@@ -24,7 +24,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/input/plan' element={<DietPlan />} />
-          {/* <Route path='*' element={<h1>Error:404 Page not found</h1>} /> */}
+          <Route path='*' element={<h1>Error:404 Page not found</h1>} />
         </Routes>
       </BrowserRouter>
 
