@@ -1,28 +1,10 @@
 import React from 'react'
-import Header from './Header'
-import Login from './Login'
-import { BrowserRouter, Routes, Route, Link, RouterProvider, createBrowserRouter } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 
 export const Navbar = () => {
-    const route = createBrowserRouter([
-        {
-            path:"/login",
-            element: <Login/>
-        },
-        {
-            path: "/",
-            element: <Header/>
-        }
-    ])
     return (
         <>
-            {/* <Routes>
-                <Route path='/' element={<Header />} />
-                <Route path='/login' element={<Login />} />
-                <Route path='*' element={<h1>Error:404 Page not found</h1>} />
-            </Routes> */}
-            {/* <RouterProvider router={route} /> */}
-            <div className='flex justify-between items-center h-[50px] bg-[#0ACB8B] text-white text-xl list-none'>
+            <div className='flex justify-between items-center h-[50px] bg-[#0ACB8B] text-white text-lg list-none'>
                 <div className='ml-4'>
                     <h1>
                         DietDex
