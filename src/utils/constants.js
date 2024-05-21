@@ -132,3 +132,5 @@ export const features = [
       "https://static.wixstatic.com/media/197d85_3f057c928a7c4818ac31f8d32b38df06~mv2.jpeg/v1/fill/w_549,h_549,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Smart_Scale_Integration.jpeg",
   },
 ];
+
+

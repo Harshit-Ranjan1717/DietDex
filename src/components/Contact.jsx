@@ -25,10 +25,10 @@ const Contact = () => {
                             <button type="submit" className="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg">Submit</button>
                         </form>
                         <div className="text-center text-gray-600">
-                            <p>123 Main Street</p>
-                            <p>New York, NY 10001</p>
-                            <p>Email: info@example.com</p>
-                            <p>Phone: 123-456-7890</p>
+                            <p>CHITKARA UNIVERSITY</p>
+                            <p>Rajpura, Punjab</p>
+                            <p>Email: dietDex@gmail.com</p>
+                            <p>Phone: 9525561347</p>
                         </div>
                     </div>
                 </div>

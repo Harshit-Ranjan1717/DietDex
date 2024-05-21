@@ -21,13 +21,4 @@ const Template = (props) => {
 
 export default Template;
 
-/*
 
-{
-    heading :"Everything you needed in single place",
-    desc:"No more scattered client information - our platform keeps everything tidy and in one place"
-    texts:[{id:1,name:All-In-One Toolkit}, {id:2,name:Integrated Meal Planner}, {id:3,name:TotalFreedom}]
-    image_id:"absvdghvkd"
-}
-
-*/

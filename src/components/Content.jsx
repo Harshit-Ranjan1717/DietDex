@@ -3,7 +3,6 @@ import React from 'react'
 const Content = (props) => {
    
     const {heading,texts,desc,id}=props;
-    console.log(id);
   return (
     <div className="ml-20 w-[60%]  ">
     <div className={`flex justify-center items-center flex-col w-96 gap-3 ${id%2===0?"mr-14 ml-auto":"ml-0 mr-auto"}`}>

@@ -15,12 +15,12 @@ const Footer = () => {
           <div className="flex  space-x-3 mt-4">
             <span className="relative mt-1"><FaLocationArrow></FaLocationArrow></span>
             <p className="text-sm">
-              Kayaloram Rd, Punnamada, Kottankulangara, Alappuzha, Kerala, 688006
+              Chitkara University, Rajpura, Punjab
             </p>
           </div>
           <div className="flex items-center space-x-3 mt-4">
             <FaMobileAlt></FaMobileAlt>
-            {/* <parent className="text-sm"> Phone : 9525561347</parent> */}
+             <p className="text-sm"> Phone : 9525561347</p>
           </div>
           <div className="flex items-center space-x-3 mt-4">
             <FaEnvelope></FaEnvelope>
