@@ -9,7 +9,7 @@ const DietPlan = ({mealPlan}) => {
 
   return (
     <>
-      <div className="container mx-auto p-8">
+      <div className="container mx-auto p-8 h-96">
       <h1 className="text-4xl font-semibold mb-8 text-center">Meal Plan</h1>
       <div className="overflow-x-auto">
         <table className="table-auto w-full border-collapse">

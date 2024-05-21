@@ -5,6 +5,7 @@ import { MdOutlineFoodBank } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import DietPlan from './DietPlan';
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import Shimmer from './Shimmer';
 
 const DietInput = () => {
     const [email, setEmail] = useState('')
@@ -14,12 +15,13 @@ const DietInput = () => {
         e.preventDefault()
     }
     const [mealPlan, setMealPlan] = useState(null);
+    const [flag,setFlag]=useState(false)
 
   const API_KEY = import.meta.env.VITE_API_KEY;
   const genAI = new GoogleGenerativeAI(API_KEY);
 
   async function fun() {
-    console.log("clicked");
+    setFlag(!flag);
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
     const prompt = ` Act as a Diet Recommendation system and suggest diet for the query: I am Non-vegetarian and I have Diabetes . please make your reponse as array of objects with headings and subheadings like : [{},{},{},{}] [
         {
@@ -104,6 +106,8 @@ const DietInput = () => {
     return (
         <>
             <Navbar />
+            {
+                !flag &&
             <div className="flex items-center justify-center h-screen">
                 <div className="w-full max-w-md">
                     <form onSubmit={handleSubmit} className="bg-white shadow-md rounded-lg p-8">
@@ -128,7 +132,13 @@ const DietInput = () => {
                     </form>
                 </div>
             </div>
-            <DietPlan mealPlan={mealPlan}></DietPlan>
+            }
+            {
+                mealPlan ? <DietPlan mealPlan={mealPlan}></DietPlan> : <Shimmer></Shimmer>
+            }
+            
+            
+
         </>
     )
 }
