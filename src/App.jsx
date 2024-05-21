@@ -19,7 +19,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Header />} />
-          <Route path='/input' element={<DietInput />} />
+          <Route path='/input/:meal' element={<DietInput />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
